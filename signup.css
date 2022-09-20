@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/9a/c7/e1/9ac7e1fd537031560a490d455dc9a446.jpg);
+    background-size:cover;
+}
+.container{
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.card{
+    width: 100%;
+    padding: 5px 40px 50px 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+h2{
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#firstname{
+    width: 45%;
+    height: 30px;
+    border-radius: 5px; 
+    margin-top: 5px;
+    padding: 5px;
+}
+#surname{
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#email{
+    width: 92%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#password{
+    width: 92%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#month{
+    width: 32%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#days{
+    width: 32%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+#year{
+    width: 32%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+p{
+    text-align: left;
+    padding: 6px;
+}
+#Gender{
+    width: 20px;
+    margin-top: 20px;
+}
+.button{
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: thin;
+    background-color: rgb(5, 187, 5);
+    color: white;
+    font-size: larger;
+}
+.button:hover{
+    background-color: rgb(4, 161, 4);
+}

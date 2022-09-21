@@ -33,6 +33,16 @@ function length(){
         
     }
 console.log(day);
+    
+//if condition
+
+    let num;
+    num = document.getElementById('statement').value;
+    if(num > 10){
+        alert('greater number');
+    } if(num < 10){
+        alert('lower number');
+    }console.log(num);
  
 //length
 
